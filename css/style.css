@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,51 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/*//// TO DO FOR CSS:
+1. Change header font
+2. Add "header" line that sits above picture
+3. Wrap picture in obrder
+4. Change H2 level fonts
+5. Wrap press links in borders
+6. Move footer to right size at smaller font
+7. Add padding to body.
+ ////// */
+
+ .hfont {
+	 color: rgb(141,163,156)
+ }
+
+ .h2font {
+	 color: rgb(104,120,115)
+ }
+
+
+ .img1 {
+	 border-width: thick;
+	 border-style:solid;
+	 border-color:rgb(141,163,156);
+ }
+
+ .img2 {
+	border-width: medium;
+	border-style:solid;
+	border-color:rgb(197,197,197);
+ }
+
+ .footer {
+	 text-align: right;
+	 font-size: 70%
+ }
+
+
+
+
+
+/* //// HEADER //// */
+
+/* header colors: 141 163 156
+
+h2 colors: 104	120	115
+
+*/
