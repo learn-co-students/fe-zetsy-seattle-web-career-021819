@@ -1,5 +1,5 @@
 /*////////////// Fonts //////////////*/
-
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +17,64 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {  /*anything h2 */
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+p  {  /* anything between p tags */
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+.small {  /* anything with class .small */
+	font-size: 0.8em;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
+
+/* SECTION STYLES */
+
+header a {  /* adjusts Zesty header and anything in header section */
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {  /*formats link askepct, when mouse hovers over */
+	color: rgb(111,127,122);
+}
+
+#featured img {  /* id featured and img */
+	border: 5px rgb(152,173,166) solid;
+}
+
+#featured a { /* anything within featured id */
+	color: #1783bb;
+	text-decoration: none;
+}
+
+#press {  /* gives bottom margin of everything in press id*/
+	margin-bottom: 20px;
+}
+
+#press img { /*border around imgs in press id */
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+#press img:hover { /* formats links in press id */
+	border: 5px rgb(111,127,122) solid;
+}
